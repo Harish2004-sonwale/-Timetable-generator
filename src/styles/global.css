@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Global app styles */
+:root {
+  --brand: #2563eb;
+}
+
+body {
+  background-color: #ffffff; /* white */
+  color: #000000; /* black */
+}
+
+.container-page {
+  padding: 1rem; /* p-4 */
+}
+
+@media (min-width: 768px) {
+  .container-page { padding: 1.5rem; } /* md:p-6 */
+}

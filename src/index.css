@@ -1,0 +1,55 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  color: #111827; /* black-ish */
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a { color: #000000; text-decoration: none; }
+a:hover { color: #000000; text-decoration: underline; }
+
+body { margin: 0; min-width: 320px; min-height: 100vh; color: #000000; background: #ffffff; }
+
+/* Force readable dark text for common elements (exclude button so component styles can set it) */
+body, p, span, label, div, li, th, td { color: #000000; }
+
+h1 { font-size: 1.75rem; line-height: 1.2; }
+
+button { font-family: inherit; }
+
+.selection-black ::selection { background: #fde047; color: #000000; }
+::selection { background: #93c5fd; color: #111827; }
+
+/* Ensure form controls use dark text on light backgrounds */
+input, select, textarea { color: #000000; background: #ffffff; }
+input::placeholder, textarea::placeholder { color: #6b7280; }
+
+/* Make typed text and cursor highly visible */
+input, textarea { caret-color: #111827; border: 1px solid #d1d5db; }
+select { border: 1px solid #d1d5db; }
+input:focus, textarea:focus, select:focus {
+  outline: 2px solid #2563eb; /* blue-600 */
+  outline-offset: 1px;
+  border-color: #2563eb;
+}
+
+/* Stronger selection contrast everywhere */
+*::selection { background: #93c5fd; color: #111827; }
+
+/* Improve input selection contrast across browsers */
+input::selection, textarea::selection { background: #93c5fd; color: #111827; }
+
+/* Fix Chrome autofill making text hard to read */
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-text-fill-color: #111827 !important;
+  caret-color: #111827;
+  transition: background-color 9999s ease-in-out 0s;
+}
