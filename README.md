@@ -44,3 +44,11 @@ Notes:
 - `src/context/AppContext.jsx` → global state (teachers, subjects, classes, groups, constraints, timetable)
 
 Images 
+<img width="1677" height="641" alt="1" src="https://github.com/user-attachments/assets/01d9242d-a719-428a-9f8f-12cabf13c2af" />
+
+<img width="1582" height="543" alt="2" src="https://github.com/user-attachments/assets/479515a6-a998-40c2-9a3a-7112d7da8297" />
+
+<img width="1555" height="507" alt="3" src="https://github.com/user-attachments/assets/5e7c48d7-0186-4172-8326-a04d3f527620" />
+
+
+
