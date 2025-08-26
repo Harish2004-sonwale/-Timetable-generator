@@ -43,3 +43,4 @@ Notes:
 - `src/components/` → UI components
 - `src/context/AppContext.jsx` → global state (teachers, subjects, classes, groups, constraints, timetable)
 
+Images 
