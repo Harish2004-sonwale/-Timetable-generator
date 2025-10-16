@@ -10,7 +10,7 @@ Generate and view simple timetables. Includes data entry for Teachers, Subjects,
 npm install
 npm run dev
 ```
-Open the URL printed by Vite (e.g., http://localhost:5173).
+Open the URL printed by Vite https://timetable-generator-self.vercel.app/dashboard
 
 ## Build
 ```bash
