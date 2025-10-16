@@ -18,25 +18,6 @@ npm run build
 npm run preview   # optional local preview of dist/
 ```
 
-## Deploy to Vercel (recommended)
-1. Push this folder to GitHub (create a new repo first):
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<repo>.git
-   git push -u origin main
-   ```
-2. Go to https://vercel.com → Add New Project → Import your repo.
-3. Framework preset: "Vite".
-4. Build Command: `npm run build`
-5. Output Directory: `dist`
-6. Deploy.
-
-Notes:
-- `vercel.json` is included to rewrite all routes to `index.html` for React Router.
-- Tailwind v4 uses `@tailwindcss/postcss` in `postcss.config.js`.
 
 ## Folder structure
 - `src/pages/` → app pages (Dashboard, ManageData, GenerateSchedule, ViewTimetable, Reports)
